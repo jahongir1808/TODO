@@ -1,0 +1,98 @@
+#pizza {
+  padding-top: 46px;
+  .pizza-head {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    button {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 16px;
+      background: #ffffff;
+      border: 1px solid #f0f0f0;
+      border-radius: 6px;
+      font-family: "Source Sans Pro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: #191919;
+    }
+  }
+}
+
+.pizza-items {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 40px;
+  @media (min-width: 400px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: 1000px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .pizza-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #ffffff;
+    border: 1px solid #f0f0f0;
+    border-radius: 12px;
+    img {
+      width: 100%;
+    }
+    .pizza_item-content {
+      padding: 20px;
+      h4 {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.125rem;
+        line-height: 24px;
+        color: #191919;
+      }
+      p {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 22px;
+        color: #191919;
+      }
+      .pizza_item-bottom {
+        padding-top: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        @media (min-width: 500px) {
+          flex-direction: row;
+        }
+        button {
+          padding: 13px 32px;
+          font-family: "Source Sans Pro";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1rem;
+          line-height: 22px;
+          color: #ffffff;
+          background: #ff7010;
+          border-radius: 6px;
+        }
+        span {
+          font-family: "Source Sans Pro";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 24px;
+          color: #ff7010;
+        }
+      }
+    }
+  }
+}

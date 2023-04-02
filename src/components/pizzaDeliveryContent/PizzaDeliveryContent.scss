@@ -1,0 +1,38 @@
+.delivery-content {
+  padding: 60px 0;
+  width: 100%;
+  @media (min-width: 600px) {
+    width: 58%;
+    margin: 0 auto;
+  }
+  h5 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 40px;
+    color: #191919;
+  }
+  p {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 22px;
+    background: linear-gradient(180deg, rgba(249, 249, 249, 0) 0%, #f9f9f9 100%),
+      #191919;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  a {
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 20px;
+    color: #ff7010;
+    transition: 0.3s;
+  }
+}

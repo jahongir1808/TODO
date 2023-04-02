@@ -1,0 +1,98 @@
+footer {
+  padding: 30px 0;
+  background: rgba(0, 16, 61, 0.06);
+}
+.footer {
+  .footer-logo {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #919399;
+  }
+  .footer-bottom {
+    padding-top: 16px;
+    display: flex;
+    @media (max-width: 400px) {
+      align-items: center;
+    }
+    @media (max-width: 1000px) {
+      flex-direction: column;
+      .footer-menus,
+      .footer_tel-numbers {
+        width: 100%;
+        justify-content: center;
+        ul {
+          padding-left: 0;
+        }
+      }
+    }
+    .footer-menus {
+      width: 60%;
+      display: flex;
+      gap: 30px;
+      @media (max-width: 700px) {
+        flex-direction: column;
+      }
+      @media (max-width: 400px) {
+        text-align: center;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+        li {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 28px;
+          color: #2c2d2e;
+        }
+        li {
+          a {
+            text-decoration: none;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #2c2d2e;
+          }
+        }
+      }
+    }
+    .footer_tel-numbers {
+      width: 40%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 24px 30px;
+      @media (max-width: 700px) {
+        grid-template-columns: 1fr;
+      }
+      @media (max-width: 400px) {
+        text-align: center;
+      }
+      ul {
+        h5 {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          color: #ef7c00;
+        }
+        li {
+          a {
+            text-decoration: none;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+            color: #2c2d2e;
+          }
+        }
+      }
+    }
+  }
+}

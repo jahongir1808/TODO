@@ -1,0 +1,88 @@
+.sertificate {
+  margin-bottom: 40px;
+  padding-bottom: 50px;
+  .container {
+    .sertificate-head {
+      padding-bottom: 16px;
+      text-align: center;
+      h2 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color: #2c2d2e;
+        span {
+          color: #ef7c00;
+        }
+      }
+    }
+    .sertificate_carousel-custom {
+      .slick-prev:before {
+        content: "<" !important;
+        color: #bfc1c7 !important;
+      }
+      .slick-next:before {
+        content: ">" !important;
+        color: #bfc1c7 !important;
+      }
+      .slick-prev:before,
+      .slick-next:before {
+        font-family: "slick";
+        font-size: 20px;
+        line-height: 1;
+        opacity: 0.75;
+        color: #bfc1c7 !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      .slick-prev,
+      .slick-next {
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: 50%;
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: #bfc1c7 !important;
+        border: none;
+        outline: none;
+        background: transparent !important;
+      }
+      .slick-dots {
+        position: absolute;
+        bottom: -25px;
+        display: block;
+        transform: translateY(2px);
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+      }
+      .slick-dots li button:before {
+        font-family: "slick";
+        font-size: 6px;
+        line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 6.5px;
+        height: 6px;
+        border: 1px solid #ef7c00;
+        border-radius: 50%;
+        content: "";
+        text-align: center;
+        opacity: 1;
+      }
+      .slick-dots li.slick-active button:before {
+        opacity: 0.75;
+        background-color: #ef7c00;
+      }
+    }
+  }
+}

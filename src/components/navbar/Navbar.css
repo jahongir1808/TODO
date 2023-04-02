@@ -1,0 +1,171 @@
+@media (max-width: 900px) {
+  .nav-container .nav-menus ul {
+    display: none;
+  }
+  .nav-container .nav-menus .nav-btns {
+    display: none;
+  }
+  .nav-menus-link {
+    display: block;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #3d4c55;
+    transition: 0.3s;
+  }
+  #navbar-responsive .nav-menus-link:hover {
+    color: #22343d;
+    transition: 0.5s;
+  }
+  .hamburger i {
+    font-size: 30px;
+    color: black;
+  }
+  #close-navbar {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  #close-navbar i {
+    font-size: 30px;
+    color: white;
+  }
+  #navbar-responsive ul .nav__responsive-btn {
+    display: block;
+    max-width: 100px;
+    margin-top: 39px;
+    width: 100%;
+    padding: 10px 19px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #173a56;
+    border: 1px solid #bcd0e5;
+    background: #ffffff;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  .nav__responsive-btn:hover {
+    background: #02897a;
+    color: #ffffff;
+  }
+  #navbar-responsive {
+    position: absolute;
+    background: #232536;
+    display: block;
+    top: 0;
+    z-index: 2;
+    left: -100%;
+    width: 100%;
+    transition: 1s;
+  }
+  #navbar-responsive ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    height: 100vh;
+    list-style-type: none;
+  }
+}
+
+nav {
+  padding: 19px 0;
+  background: #ffffff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.hamburger {
+  display: none;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar-responsive {
+  display: none;
+}
+.nav-container .nav-logo-img {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.nav-container .nav-logo-img h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 28px;
+  color: #173a56;
+}
+.nav-container .nav-menus {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-container .nav-menus ul li a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #3d4c55;
+  transition: 0.3s;
+}
+.nav-container .nav-menus ul li a:hover {
+  color: #22343d;
+}
+.nav-container .nav-menus .nav-btns {
+  display: flex;
+  gap: 24px;
+}
+.nav-container .nav-menus .nav-btns a {
+  padding: 10px 23px 9px 25px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #173a56;
+  border: 1px solid #bcd0e5;
+  background: #ffffff;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.nav-container .nav-menus .nav-btns a:hover {
+  background: #02897a;
+  color: #ffffff;
+}
+.nav-container .nav-menus button {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f3f3;
+  border: none;
+  border-radius: 100px;
+}
+
+.nav-container .nav-menus ul {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .nav-container .nav-menus ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+}

@@ -1,0 +1,88 @@
+.container {
+  .production-head {
+    padding-bottom: 16px;
+    text-align: center;
+    h2 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 40px;
+      color: #2c2d2e;
+      span {
+        color: #ef7c00;
+      }
+    }
+  }
+  .react-tabs__tab-panel--selected {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    border: none !important;
+    border-radius: 61px !important;
+    img {
+      width: 100%;
+    }
+    @media (min-width: 450px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: 992px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @media (min-width: 1200px) {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  .react-tabs__tab--selected {
+    background: #ef7c00;
+    color: #ffffff !important;
+  }
+  .react-tabs__tab-list {
+    padding: 16px 0 !important;
+    border-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    margin: 0 0 16px 0 !important;
+    @media (min-width: 576px) {
+      flex-direction: row;
+    }
+  }
+  .react-tabs__tab {
+    display: inline-block;
+    border-bottom: none;
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    border: 1px solid rgba(0, 16, 61, 0.12);
+    border-radius: 61px !important;
+    color: #ef7c00;
+  }
+  .production-btn {
+    margin-top: 32px;
+    text-align: center;
+    button {
+      padding: 10px 20px;
+      background-color: transparent;
+      border: 1px solid #ef7c00;
+      border-radius: 4px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      color: #ef7c00;
+    }
+  }
+}

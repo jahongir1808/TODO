@@ -1,0 +1,107 @@
+button {
+  border: none;
+}
+
+.home {
+  padding: 162px 0 40px;
+  background-image: url(../../assets/images/bg-home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  .carousel-card {
+    padding-bottom: 104px;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    .carousel_card-left {
+      h6 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        color: #2c2d2e;
+      }
+      h3 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color: #2c2d2e;
+      }
+      p {
+        max-width: 582px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #2c2d2e;
+      }
+      button {
+        padding: 10px 20px;
+        background: #ef7c00;
+        border-radius: 4px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: #ffffff;
+      }
+    }
+    .carousel_card-right {
+      display: flex;
+      gap: 30px;
+      flex-direction: column;
+      .icons {
+        color: #ef7c00;
+      }
+    }
+  }
+  .slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    transform: translateY(2px);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: start;
+  }
+  .slick-dots li button:before {
+    font-family: "slick";
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6.5px;
+    height: 6px;
+    border: 1px solid #ef7c00;
+    border-radius: 50%;
+    content: "";
+    text-align: center;
+    opacity: 1;
+  }
+  .slick-dots li.slick-active button:before {
+    opacity: 0.75;
+    background-color: #ef7c00;
+  }
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+}
+
+/* .slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  opacity: 1 !important;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+} */

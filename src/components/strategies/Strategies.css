@@ -1,0 +1,91 @@
+#strategies {
+  padding: 150px 0;
+}
+#strategies .strategies .strategies-content h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343d;
+}
+#strategies .strategies .strategies-content p {
+  padding: 8px 0 33px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343d;
+}
+#strategies .strategies .strategies-rows {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 32px;
+}
+@media (max-width: 600px) {
+  #strategies .strategies .strategies-rows {
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+}
+#strategies .strategies .strategies-rows .strategies-row {
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+}
+#strategies .strategies .strategies-rows .strategies-row img {
+  width: 100%;
+}
+#strategies
+  .strategies
+  .strategies-rows
+  .strategies-row
+  .strategies__row-content {
+  padding: 24px 30px 40px 24px;
+}
+#strategies
+  .strategies
+  .strategies-rows
+  .strategies-row
+  .strategies__row-content
+  p {
+  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 28px;
+  color: #22343d;
+}
+#strategies
+  .strategies
+  .strategies-rows
+  .strategies-row
+  .strategies__row-content
+  p
+  span {
+  font-weight: 700;
+}
+#strategies
+  .strategies
+  .strategies-rows
+  .strategies-row
+  .strategies__row-content
+  h4 {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Poppins";
+  line-height: 40px;
+  color: #22343d;
+  transition: 0.3s;
+}
+#strategies
+  .strategies
+  .strategies-rows
+  .strategies-row
+  .strategies__row-content
+  h4:hover {
+  color: #02897a;
+}
+#strategies .strategies .strategies-dots {
+  padding-top: 64px;
+  text-align: center;
+}

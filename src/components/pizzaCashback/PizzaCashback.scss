@@ -1,0 +1,93 @@
+.pizza_cashback-items {
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+  @media (min-width: 400px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: 800px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .pizza_cashback-item {
+    padding: 267px 40px 20px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    p {
+      max-width: 240px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.25rem;
+      line-height: 28px;
+      color: #ffffff;
+    }
+  }
+  .pizza_cashback-item:first-child {
+    background-image: url(../../../public/images/cashback-bg-1.png);
+  }
+  .pizza_cashback-item:nth-child(2) {
+    background-image: url(../../../public/images/cashback-bg-2.png);
+  }
+  .pizza_cashback-item:nth-child(3) {
+    background-image: url(../../../public/images/cashback-bg-3.png);
+  }
+  .pizza_cashback-item:last-child {
+    background-image: url(../../../public/images/cashback-bg-4.png);
+  }
+}
+
+.delivery_address {
+  margin-bottom: 30px;
+  padding: 16px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+  h4 {
+    white-space: nowrap;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 24px;
+    color: #191919;
+  }
+  form {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    input {
+      padding: 14px 12px;
+      width: 90%;
+      background: #ffffff;
+      border: 1px solid #f0f0f0;
+      border-radius: 6px;
+      font-family: "Source Sans Pro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: #a5a5a5;
+    }
+    button {
+      padding: 13px 32px;
+      background: #ff7010;
+      border-radius: 6px;
+      font-family: "Source Sans Pro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: #ffffff;
+      border: none;
+    }
+  }
+}

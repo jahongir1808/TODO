@@ -1,0 +1,100 @@
+.navbar {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: space-between !important;
+  align-items: center;
+  .nav-item {
+    align-items: center;
+    gap: 40px;
+    .location {
+      color: #ff7010 !important;
+    }
+    .dropdown {
+      a {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #191919;
+      }
+    }
+    .address {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #191919;
+    }
+    .delivery {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #191919;
+      span {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        color: #191919;
+      }
+    }
+  }
+  .work {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #191919;
+    .user {
+      color: #ff7010 !important;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #191919;
+    }
+  }
+}
+
+.nav_bottom-logo {
+  p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #191919;
+  }
+}
+
+.nav_bottom-allPrice {
+  padding: 9px 16px;
+  background: #ff7010;
+  border-radius: 4px;
+  .nav_bottom-cart {
+    color: #ffffff !important;
+  }
+  span {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,36 @@
+.categories-items {
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  @media (max-width: 1300px) {
+    overflow-x: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .categories-item {
+    padding: 20px 40px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #f0f0f0;
+    border-radius: 12px;
+    transition: 0.5s;
+    &:hover {
+      padding: 25px 45px;
+      h4 {
+        color: #e23535;
+      }
+    }
+    h4 {
+      font-family: "Source Sans Pro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.125rem;
+      line-height: 24px;
+      color: #191919;
+    }
+  }
+}

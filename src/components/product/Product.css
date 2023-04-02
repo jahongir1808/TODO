@@ -1,0 +1,71 @@
+#header-bottom {
+  padding-bottom: 90px;
+  background-image: url(../../assets/images/bgc-1.svg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+#header-bottom .header-bottom .header__bottom-content {
+  display: grid;
+  justify-content: center;
+}
+#header-bottom .header-bottom .header__bottom-content h1 {
+  max-width: 539px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #22343d;
+}
+#header-bottom .header-bottom .header__bottom-rows {
+  padding: 66px 0 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 48px;
+}
+@media (max-width: 1000px) {
+  #header-bottom .header-bottom .header__bottom-rows {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 50px;
+  }
+}
+@media (max-width: 400px) {
+  #header-bottom .header-bottom .header__bottom-rows {
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+}
+#header-bottom .header-bottom .header__bottom-rows .header__bottom-row h3 {
+  padding: 30px 0 13px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #22343d;
+}
+#header-bottom .header-bottom .header__bottom-rows .header__bottom-row p {
+  max-width: 200px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343d;
+}
+#header-bottom .header-bottom .header__bottom-btn {
+  text-align: center;
+}
+#header-bottom .header-bottom .header__bottom-btn a {
+  padding: 15px 31px;
+  background: #02897a;
+  border-radius: 4px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
